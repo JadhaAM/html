@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+h1{
+    text-decoration-line: underline;
+    background-color: pink;
+    font-size: 6pt;
+}
+h4{
+    
+    font-size: 25px;
+    padding: 10px 20px;
+
+}
+.contaner{
+    width: 50%;
+    height: 80%;
+   margin: 3% 20%;
+    background-color: rgb(48, 171, 241);
+}
+
+ .row1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+ }
+    </style>
+</head>
+<body>
+    <h1>Project Management</h1>
+    <div class="contaner">
+        <div class="row1">
+            <h4>project Name</h4>
+            <input type="text" placeholder="project name">
+        </div>
+        <div class="row1">
+            <h4>Assigned To</h4>
+            <input type="text" placeholder="Ex devloper">
+        </div>
+        <div class="row1">
+            <h4>Start Date</h4>
+            <input type="date">
+        </div>
+        <div class="row1">
+            <h4>End Date</h4>
+            <input type="date">
+        </div>
+        <div class="row1">
+            <h4>Priority</h4>
+            <input type="text" placeholder="project name">
+        </div>
+        <div class="row1">
+            <h4>Description</h4>
+             <textarea name="text" id="textarea" cols="5" rows="5"></textarea>
+        </div>
+
+        <div class="row1">
+           <button type="submit">Submit</button>
+           <button type="reset">Clear</button>
+        </div>
+    </div>
+</body>
+</html>

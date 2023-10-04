@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>input</title>
+</head>
+<body>
+    <form action="#" method="post">
+    <input type="number" name="num1" placeholder="enter the firs number">
+    <input type="number" name="num2" placeholder="enter the secound number">
+
+    <button type="submit">check</button>
+
+</form>
+<?php
+ if ($_post) {
+    $num1=$_post['num1'];
+    echo "$num1";
+ }
+?>
+</body>
+
+</html>
