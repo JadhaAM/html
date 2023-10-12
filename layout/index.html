@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .main {
+            width: 70%;
+            margin: auto;
+            height: 50%;
+            border: 2px solid red;
+        }
+
+        header {
+            width: 100%;
+            height: 10%;
+            background-color: blue;
+        }
+
+        .mainu {
+            width: 100%;
+            height: 80%;
+            display: flex;
+        }
+
+        .mainu .left {
+            width: 40%;
+            height: 100%;
+            background-color:green;
+        }
+        .left h1{
+            padding: 10px;
+        }
+        .mainu .right {
+            width: 60%;
+            height: 100%;
+            background-color: yellow;
+        }
+          .right p{
+            text-align: center;
+            padding: 10px;
+            line-height: 1.5;
+          }
+        footer {
+            width: 100%;
+            height: 10%;
+            background-color: red;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="main">
+        <header>
+            <h1>dpmk</h1>
+        </header>
+        <div class="mainu">
+            <nav class="left">
+               <h1>Mainu</h1> 
+            </nav>
+            <div class="right">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus illo ipsa cupiditate! Reprehenderit
+                    odit ut minima enim nemo corporis assumenda ipsam natus similique labore hic voluptatibus, error,
+                    praesentium tenetur numquam sequi distinctio voluptate. Velit magni reprehenderit beatae eos libero,
+                    quae itaque veritatis nisi repellendus, ad facere voluptatibus dolorum non. Magnam porro, quibusdam
+                    sequi perferendis expedita harum? Debitis nam, enim laborum, voluptatem sint exercitationem mollitia
+                    obcaecati alias repellendus, ab delectus fugit aspernatur itaque beatae adipisci quo ad numquam?
+                    Laudantium voluptatem est velit illum quidem, rerum corrupti perferendis, perspiciatis omnis
+                    veritatis molestias saepe quas tempore dolorum? Doloremque sed autem ipsum praesentium deleniti.</p>
+            </div>
+        </div>
+        <footer>
+            <h1>at dpmk Karjat </h1>
+        </footer>
+    </div>
 </body>
+
 </html>
