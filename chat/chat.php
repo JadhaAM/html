@@ -1,8 +1,5 @@
 <?php
 
-// $firstFile = readline("Enter the name of the first file: ");
-// $secondFile = readline("Enter the name of the second file: ");
-
 $handle1 = fopen("newfile.txt", "r");
 $handle2 = fopen("secoundFile.txt", "w");
 
